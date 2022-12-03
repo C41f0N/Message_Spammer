@@ -1,4 +1,4 @@
-# Message_Spammer_Python
+# Message Spammer
 A Program that types insults at inhuman speeds, hence can be used as a message spammer.
 
 # Usage
