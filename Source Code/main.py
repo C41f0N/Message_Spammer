@@ -23,6 +23,13 @@ heavyEnglishInsults = ['a sticky asshole', 'a much more sticky asshole', 'a dick
 mildUrduInsults = ['bad ikhlaak', 'be tehzeeb', 'rondu', 'pagal', 'khabees', 'ghaleez', 'behiss', 'nalaiq', 'bhens ki dum']
 heavyUrduInsults = ['kutta', 'sir rehan ka chela',]
 
+
+def showCountdown(seconds):
+    while (seconds > 0):
+        print(f"[+] Put the cursor on the message box, the spamming commences in {int(seconds)} seconds...", end="\r")
+        seconds -= 1
+        time.sleep(1)
+
 if option == 1:
     message = str(input("\nEnter the message you want to spam: "))
     delay = float(input('Enter the delay you want in between each message (in seconds): '))
@@ -35,7 +42,7 @@ if option == 1:
     print("\n\n[+] Please wait...")
     time.sleep(1)
 
-    print(f"[+] Put the cursor on the message box, the spamming commences in {timeToPrepare} seconds...")
+    showCountdown(timeToPrepare)
 
     time.sleep(timeToPrepare)
 
@@ -55,7 +62,8 @@ elif option == 2:
     print("\n\n[+] Please wait...")
     time.sleep(1)
 
-    print(f"[+] Put the cursor on the message box, the spamming commences in {timeToPrepare} seconds...")
+    showCountdown(timeToPrepare)
+
 
     time.sleep(timeToPrepare)
 
