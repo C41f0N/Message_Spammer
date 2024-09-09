@@ -36,30 +36,17 @@ print("[5] Heavy Insult Preset (in Urdu)")
 option = int(input("\n[-] Enter your option: "))
 
 mildEnglishInsults = ["a donkey", "a dog", "useless", "crap", "a disgrace"]
-heavyEnglishInsults = [
-    "a sticky asshole",
-    "a much more sticky asshole",
-    "a dick",
-    "a bastard",
-    "a pedophile",
-    "a liptard",
-    "suicidal genmax",
-]
+heavyEnglishInsults = ["Enter your custom insults for this preset"]
 mildUrduInsults = [
     "bad ikhlaak",
     "be tehzeeb",
-    "rondu",
     "pagal",
     "khabees",
     "ghaleez",
     "behiss",
     "nalaiq",
-    "bhens ki dum",
 ]
-heavyUrduInsults = [
-    "kutta",
-    "sir rehan ka chela",
-]
+heavyUrduInsults = ["Enter insults here",]
 
 
 def showCountdown(seconds):
